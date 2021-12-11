@@ -51,8 +51,8 @@ export default function Home() {
                 <div className="carousel-caption container">
                   <div className="row">
                     <div className="col-md-7 col-sm-12 col-xs-12">
-                      <h1>We Are Cosmix</h1>
-                      <h2>Creative Themes</h2>
+                      <h1>We Are AUKALIS</h1>
+                      <h2>RC:1689668 </h2>
                       <p>
                         Cosmix – A One Page Parallax, HTML5 and Responsive
                         Template suitable for any creative business agency.
