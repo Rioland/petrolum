@@ -1,6 +1,6 @@
 /* eslint-disable */
 import Head from "next/head";
-import Script from 'next/script'
+
 import {
   Download,
   Nav,
@@ -26,17 +26,15 @@ export default function Home() {
   <meta name="description" content />
   <meta name="author" content />
   <title>AUKALIS</title>
-  <style>
-  @import url(&apos;css/bootstrap.css&apos;);
-  @import url(&apos;css/responsive.css&apos;);
-  @import url(&apos;css/animate.css&apos;);
-  @import url(&apos;css/prettyPhoto.css&apos;;
-  @import url(&apos;css/font-awesome.css&apos;);
-  @import url(&apos;css/owl.carousel.css&apos;);
-  @import url(&apos;css/owl.theme.css&apos;);
-  @import url(&apos;css/owl.transitions.css&apos;);
-  </style>
-
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+  <link rel="stylesheet" type="text/css" href="css/owl.transitions.css" />
       </Head>
       {/*  */}
       <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
@@ -73,17 +71,17 @@ export default function Home() {
       </body>
       {/*  */}
       {/* script */}
-      <Script type="text/javascript" src="js/jquery.min.js"></Script>
-      <Script type="text/javascript" src="js/bootstrap.js"></Script>
-      <Script type="text/javascript" src="js/jquery.prettyPhoto.js"></Script>
-      <Script type="text/javascript" src="js/jquery.nicescroll.js"></Script>
-      <Script type="text/javascript" src="js/waypoints.min.js"></Script>
-      <Script type="text/javascript" src="js/jquery.isotope.js"></Script>
-      <Script type="text/javascript" src="js/wow.js"></Script>
-      <Script type="text/javascript" src="js/jquery.countTo.js"></Script>
-      <Script type="text/javascript" src="js/jquery.inview.min.js"></Script>
-      <Script type="text/javascript" src="js/owl.carousel.js"></Script>
-      <Script type="text/javascript" src="js/script.js"></Script>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+      <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+      <script type="text/javascript" src="js/waypoints.min.js"></script>
+      <script type="text/javascript" src="js/jquery.isotope.js"></script>
+      <script type="text/javascript" src="js/wow.js"></script>
+      <script type="text/javascript" src="js/jquery.countTo.js"></script>
+      <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+      <script type="text/javascript" src="js/owl.carousel.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
     </div>
   );
 }

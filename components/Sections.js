@@ -1,24 +1,22 @@
 /* eslint-disable */
-import Image from 'next/image'
-
 function Testi() {
   return (
     <section id="testimonials" className="parallex">
       <div className="container">
         <div className="quote">
-          
-          <i className="fa fa-quote-left" />
+          {" "}
+          <i className="fa fa-quote-left" />{" "}
         </div>
         <div className="clearfix" />
         <div className="slider-text">
           <div id="owl-testi" className="owl-carousel owl-theme">
             <div className="item">
               <div className="col-md-10 col-md-offset-1">
-                
-                <Image
+                {" "}
+                <img
                   src="images/Testimonials/02.jpg"
                   className="img-circle"
-                  alt="image"
+                  alt
                 />
                 <h5>
                   Neque porro quisquam est, qui dolorem ipsum quia dolor sit
@@ -30,11 +28,11 @@ function Testi() {
               </div>
             </div>
             <div className="col-md-10 col-md-offset-1">
-              
-              <Image
+              {" "}
+              <img
                 src="images/Testimonials/03.jpg"
                 className="img-circle"
-                alt="image"
+                alt
               />
               <h5>
                 Nor again is there anyone who loves or pursues or desires to
@@ -45,11 +43,11 @@ function Testi() {
               <p>Web Designer</p>
             </div>
             <div className="col-md-10 col-md-offset-1">
-              
-              <Image
+              {" "}
+              <img
                 src="images/Testimonials/04.jpg"
                 className="img-circle"
-                alt="image"
+                alt
               />
               <h5>
                 Nam libero tempore, cum soluta nobis est eligendi optio cumque
@@ -95,8 +93,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-line-chart" />
+                  {" "}
+                  <i className="fa fa-line-chart" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">Pipe Line</h5>
@@ -114,8 +112,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-cubes" />
+                  {" "}
+                  <i className="fa fa-cubes" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">Plate and metal products</h5>
@@ -133,8 +131,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-pie-chart" />
+                  {" "}
+                  <i className="fa fa-pie-chart" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">Civil Enginnering</h5>
@@ -152,8 +150,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-bar-chart" />
+                  {" "}
+                  <i className="fa fa-bar-chart" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">
@@ -173,8 +171,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-language" />
+                  {" "}
+                  <i className="fa fa-language" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">Road Construction</h5>
@@ -192,8 +190,8 @@ function Service() {
             >
               <div className="media service-box">
                 <div className="pull-left">
-                  
-                  <i className="fa fa-bullseye" />
+                  {" "}
+                  <i className="fa fa-bullseye" />{" "}
                 </div>
                 <div className="media-body">
                   <h5 className="media-heading">Estate Management</h5>
@@ -228,8 +226,8 @@ function Service() {
                     aria-valuemax={90}
                     style={{ width: "95%" }}
                   >
-                    
-                    95%
+                    {" "}
+                    95%{" "}
                   </div>
                 </div>
               </div>
@@ -248,8 +246,8 @@ function Service() {
                     aria-valuemax={80}
                     style={{ width: "80%" }}
                   >
-                    
-                    80%
+                    {" "}
+                    80%{" "}
                   </div>
                 </div>
               </div>
@@ -268,8 +266,8 @@ function Service() {
                     aria-valuemax={60}
                     style={{ width: "60%" }}
                   >
-                    
-                    60%
+                    {" "}
+                    60%{" "}
                   </div>
                 </div>
               </div>
@@ -288,8 +286,8 @@ function Service() {
                     aria-valuemax={70}
                     style={{ width: "70%" }}
                   >
-                    
-                    70%
+                    {" "}
+                    70%{" "}
                   </div>
                 </div>
               </div>
@@ -300,12 +298,12 @@ function Service() {
             data-wow-duration="1000ms"
             data-wow-delay="600ms"
           >
-            
-            <Image
+            {" "}
+            <img
               src="https://media.istockphoto.com/photos/pipelines-on-ocean-bottom-underwater-3d-rendering-picture-id1098052874?b=1&k=20&m=1098052874&s=170667a&w=0&h=cwoCsEAtM-VO4SHRsdqp2Xm9WmMc1hb1nV3OAmHhHkY="
               className="img-responsive"
-              alt="image"
-            />
+              alt
+            />{" "}
           </div>
         </div>
       </div>
@@ -390,14 +388,14 @@ function Slider() {
             data-slide="prev"
           >
             <i className="fa fa-angle-left" />
-          </a>
+          </a>{" "}
           <a
             className="home-carousel-right"
             href="#home-carousel"
             data-slide="next"
           >
             <i className="fa fa-angle-right" />
-          </a>
+          </a>{" "}
         </div>
       </div>
     </section>
@@ -432,8 +430,8 @@ function Teams() {
           >
             <div className="team-sec">
               <div className="team-img">
-                
-                <Image src="images/Team/01.jpg" className="img-responsive" alt="image" />
+                {" "}
+                <img src="images/Team/01.jpg" className="img-responsive" alt />
                 <div className="team-desc">
                   <h5>Julia Amanda</h5>
                   <p>
@@ -503,8 +501,8 @@ function Teams() {
           >
             <div className="team-sec">
               <div className="team-img">
-                
-                <Image src="images/Team/02.jpg" className="img-responsive" alt="image" />
+                {" "}
+                <img src="images/Team/02.jpg" className="img-responsive" alt />
                 <div className="team-desc">
                   <h5>Merry Luis</h5>
                   <p>
@@ -574,8 +572,8 @@ function Teams() {
           >
             <div className="team-sec">
               <div className="team-img">
-                
-                <Image src="images/Team/03.jpg" className="img-responsive" alt="image" />
+                {" "}
+                <img src="images/Team/03.jpg" className="img-responsive" alt />
                 <div className="team-desc">
                   <h5>Poll Astin</h5>
                   <p>
@@ -645,8 +643,8 @@ function Teams() {
           >
             <div className="team-sec">
               <div className="team-img">
-                
-                <Image src="images/Team/04.jpg" className="img-responsive" alt="image" />
+                {" "}
+                <img src="images/Team/04.jpg" className="img-responsive" alt />
                 <div className="team-desc">
                   <h5>Janea Syria</h5>
                   <p>
@@ -730,14 +728,14 @@ function Nav() {
                 data-target="#bs-example-navbar-collapse-1"
                 aria-expanded="false"
               >
-                
-                <span className="sr-only">Toggle navigation</span>
-                <span className="icon-bar" /> <span className="icon-bar" />
-                <span className="icon-bar" />
+                {" "}
+                <span className="sr-only">Toggle navigation</span>{" "}
+                <span className="icon-bar" /> <span className="icon-bar" />{" "}
+                <span className="icon-bar" />{" "}
               </button>
               <a className="navbar-brand" href="#menu">
-                <Image src="images/Logo/01.png" alt="image" />
-              </a>
+                <img src="images/Logo/01.png" alt />
+              </a>{" "}
             </div>
             {/* Collect the nav links, forms, and other content for toggling */}
             <div
@@ -841,16 +839,16 @@ function Portfoilo() {
         <div className="portfolio-items">
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/sbm_prosperity.618d44c550693.png.jpg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/img1.jpeg"
@@ -865,16 +863,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/red-zone-management.png"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/img1.jpeg"
@@ -889,16 +887,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="https://cdn.pixabay.com/photo/2016/08/14/19/52/factory-1593842__340.jpg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/img1.jpeg"
@@ -914,16 +912,16 @@ function Portfoilo() {
           {/*/.portfolio-item*/}
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate portfolio">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/img2.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/02.jpg"
@@ -938,16 +936,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate portfolio">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/sbm_prosperity.618d44c550693.png.jpg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/02.jpg"
@@ -962,16 +960,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate portfolio">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/istockphoto-856787350-612x612.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/02.jpg"
@@ -987,16 +985,16 @@ function Portfoilo() {
           {/*/.portfolio-item*/}
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/img5.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/03.jpg"
@@ -1012,16 +1010,16 @@ function Portfoilo() {
           {/*/.portfolio-item*/}
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/img6.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/04.jpg"
@@ -1037,16 +1035,16 @@ function Portfoilo() {
           {/*/.portfolio-item*/}
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item creative portfolio">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/img7.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/05.jpg"
@@ -1062,16 +1060,16 @@ function Portfoilo() {
           {/*/.portfolio-item*/}
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/1280px-Bulford_Dolphin_in_dry_dock.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/06.jpg"
@@ -1086,16 +1084,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/9c6a8968-c0af-11e5-9fdb-87b8d15baec2.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/06.jpg"
@@ -1110,16 +1108,16 @@ function Portfoilo() {
           </div>
           <div className="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate">
             <div className="portfolio-item-inner">
-              
-              <Image
+              {" "}
+              <img
                 className="img-responsive"
                 width="300px"
                 height={250}
                 src="images/Portfolio/index.jpeg"
-                alt="image"
+                alt
               />
               <div className="portfolio-info">
-                
+                {" "}
                 <a
                   className="preview"
                   href="images/Portfolio/06.jpg"
@@ -1182,7 +1180,7 @@ function About() {
                 sunt in culpa qui officia deserunt mollit anim id est
                 laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor.Lorem Ipsum is simply dummy text of
-                the printing and typesetting industry. book.
+                the printing and typesetting industry. book.{" "}
               </p>
             </div>
             <div
@@ -1190,11 +1188,11 @@ function About() {
               data-wow-duration="1000ms"
               data-wow-delay="300ms"
             >
-              <Image
+              <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYG8DW6As0IYDKCTMVcOZIWCum5SDe_Oc_rg&usqp=CAU"
                 height="200px"
-                alt="image"
-              />
+                alt
+              />{" "}
             </div>
           </div>
         </div>
@@ -1215,10 +1213,10 @@ function Download() {
           </p>
         </div>
         <div className="col-md-2 col-sm-2 col-xs-4">
-          
+          {" "}
           <a className="btn-down" href="#">
             Download
-          </a>
+          </a>{" "}
         </div>
       </div>
     </div>
@@ -1233,7 +1231,7 @@ function Fact(){
             <div className="col-sm-6 col-md-3">
               <div className="fun-fact text-center">
                 <h3>
-                  <i className="fa fa-thumbs-o-up" />
+                  <i className="fa fa-thumbs-o-up" />{" "}
                   <span className="timer">365</span>
                 </h3>
                 <h6>Happy Clients</h6>
@@ -1242,7 +1240,7 @@ function Fact(){
             <div className="col-sm-6 col-md-3">
               <div className="fun-fact text-center">
                 <h3>
-                  <i className="fa fa-briefcase fa-6" />
+                  <i className="fa fa-briefcase fa-6" />{" "}
                   <span className="timer">73987</span>
                 </h3>
                 <h6>Completed Projects</h6>
@@ -1331,7 +1329,7 @@ function Fetures(){
           <div className="clearfix" />
           <p className="feat-sec">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+            industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -1341,14 +1339,14 @@ function Fetures(){
           </p>
           <p className="feat-sec-1">
             Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.&apos;But
+            software like Aldus PageMaker including versions of Lorem Ipsum."But
             I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound
+            account of the system, and expound{" "}
           </p>
         </div>
         <div className="col-md-6 tab-img">
-          <Image src="images/Features/01.jpg" className="img-responsive" alt="image" />
+          <img src="images/Features/01.jpg" className="img-responsive" alt />
         </div>
       </div>
       <div role="tabpanel" className="tab-pane fade feat-sec" id="tab-2">
@@ -1358,7 +1356,7 @@ function Fetures(){
           <div className="clearfix" />
           <p className="feat-sec">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+            industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -1368,14 +1366,14 @@ function Fetures(){
           </p>
           <p className="feat-sec-1">
             Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.&apos;But
+            software like Aldus PageMaker including versions of Lorem Ipsum."But
             I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound
+            account of the system, and expound{" "}
           </p>
         </div>
         <div className="col-md-6 tab-img">
-          <Image src="images/Features/02.jpg" className="img-responsive" alt="image" />
+          <img src="images/Features/02.jpg" className="img-responsive" alt />
         </div>
       </div>
       <div role="tabpanel" className="tab-pane fade feat-sec" id="tab-3">
@@ -1385,7 +1383,7 @@ function Fetures(){
           <div className="clearfix" />
           <p className="feat-sec">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+            industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -1395,14 +1393,14 @@ function Fetures(){
           </p>
           <p className="feat-sec-1">
             Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.&apos;But
+            software like Aldus PageMaker including versions of Lorem Ipsum."But
             I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound
+            account of the system, and expound{" "}
           </p>
         </div>
         <div className="col-md-6 tab-img">
-          <Image src="images/Features/03.jpg" className="img-responsive" alt="image" />
+          <img src="images/Features/03.jpg" className="img-responsive" alt />
         </div>
       </div>
       <div role="tabpanel" className="tab-pane fade feat-sec" id="tab-4">
@@ -1412,7 +1410,7 @@ function Fetures(){
           <div className="clearfix" />
           <p className="feat-sec">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+            industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -1422,14 +1420,14 @@ function Fetures(){
           </p>
           <p className="feat-sec-1">
             Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.&apos;But
+            software like Aldus PageMaker including versions of Lorem Ipsum."But
             I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound
+            account of the system, and expound{" "}
           </p>
         </div>
         <div className="col-md-6 tab-img">
-          <Image src="images/Features/04.jpg" className="img-responsive" alt="image" />
+          <img src="images/Features/04.jpg" className="img-responsive" alt />
         </div>
       </div>
       <div role="tabpanel" className="tab-pane fade feat-sec" id="tab-5">
@@ -1439,7 +1437,7 @@ function Fetures(){
           <div className="clearfix" />
           <p className="feat-sec">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+            industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -1449,14 +1447,14 @@ function Fetures(){
           </p>
           <p className="feat-sec-1">
             Lorem Ipsum passages, and more recently with desktop publishing
-            software like Aldus PageMaker including versions of Lorem Ipsum.&apos;But
+            software like Aldus PageMaker including versions of Lorem Ipsum."But
             I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound
+            account of the system, and expound{" "}
           </p>
         </div>
         <div className="col-md-6 tab-img">
-          <Image src="images/Features/05.jpg" className="img-responsive" alt="image" />
+          <img src="images/Features/05.jpg" className="img-responsive" alt />
         </div>
       </div>
     </div>
@@ -1471,46 +1469,46 @@ function Client(){
     <div className="container">
       <div id="client-slider" className="owl-carousel">
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/1.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/1.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/2.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/2.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/3.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/3.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/4.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/4.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/5.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/5.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/6.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/6.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
         <div className="item client-logo">
-          
+          {" "}
           <a href="#">
-            <Image src="images/clients/7.png" className="img-responsive" alt="image" />
-          </a>
+            <img src="images/clients/7.png" className="img-responsive" alt />
+          </a>{" "}
         </div>
       </div>
     </div>
@@ -1546,7 +1544,7 @@ function Contact (){
             <li>
               <i className="fa fa-map-marker" />
               <h6>
-                <strong>Address:</strong> No 123 , Wallstreet, India
+                <strong>Address:</strong> No 123 , Wallstreet, India{" "}
               </h6>
             </li>
             <li>
@@ -1558,13 +1556,13 @@ function Contact (){
             <li>
               <i className="fa fa-phone" />
               <h6>
-                <strong>Phone:</strong> +91 123-456-7890
+                <strong>Phone:</strong> +91 123-456-7890{" "}
               </h6>
             </li>
             <li>
               <i className="fa fa-wechat" />
               <h6>
-                <strong>Website:</strong> <a href="#">www.Cosmix.com</a>
+                <strong>Website:</strong> <a href="#">www.Cosmix.com</a>{" "}
               </h6>
             </li>
           </ul>
@@ -1688,11 +1686,11 @@ function FooterDown(){
           </li>
         </ul>
         <p>
-          
-          © Copyright 2016 Cosmix - Created By :
+          {" "}
+          © Copyright 2016 Cosmix - Created By :{" "}
           <a href="http://templatestock.co" target="_blank">
             Template Stock
-          </a>
+          </a>{" "}
         </p>
       </footer>
        
